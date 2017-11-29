@@ -1,0 +1,4 @@
+  <launch>
+    <node pkg="learning_tf" type="simple_param" name="param_test" output="screen"/>
+    <param name="my_param" value="25.5" type="double"/>
+  </launch>
